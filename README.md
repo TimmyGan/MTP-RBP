@@ -19,9 +19,9 @@ python 3.8.8 <br>NumPy v1.20.1 <br>tensorflow v2.7.0 <br>keras v2.7.0 <br>sklear
 
 - Part1：Pre-training mask data processing
 - Part2：Model Building Functions
-- Part3：pre-training Step 1: Train  MLM and BFP pre-training tasks
-- Part4：pre-training Step 2: Train MLM, BFP and SSC pre-training tasks
-- Part5：fine tuning
+- Part3：Pre-training Step 1: Train  MLM and BFP pre-training tasks
+- Part4：Pre-training Step 2: Train MLM, BFP and SSC pre-training tasks
+- Part5：Fine tuning
 - Part6：Evaluation of fine-tuning results
 
 ./structBEP: BEP Representation of Structures Used to Guide Secondary Structure Construction Tasks<br>
