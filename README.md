@@ -2,7 +2,7 @@
 
 MTP-RBP aims to determine whether an RNA can have a binding site with a certain protein. Similar to BERT, it learns the Integrated sequence-structure-function characteristics of RNA simultaneously by pre-training.
 
-First, MTP-RBP  incorporates an additional binding function prediction task on top of the MLM task, allowing it to capture the binding properties of RNA sequences while learning their deep contextual representations through pre-training on the in-task dataset.  Second, we also design a secondary structure construction task to guide the model in self-learning structural information, rather than inputting it as a separate branch. By simultaneously engaging in these pre-training tasks, the Encoder can integrate RNA sequence and structural features more effectively. Furthermore, through extended sequence modeling, MTP-RBP is able to better capture semantic information and sequence patterns.
+First, MTP-RBP  incorporates an additional binding function prediction task on top of the masked language modeling task, allowing it to capture the binding properties of RNA sequences while learning their deep contextual representations through pre-training on the in-task dataset.  Second, we also design a secondary structure construction task to guide the model in self-learning structural information, rather than inputting it as a separate branch. By simultaneously engaging in these pre-training tasks, the Encoder can integrate RNA sequence and structural features more effectively. Furthermore, through extended sequence modeling, MTP-RBP is able to better capture semantic information and sequence patterns.
 
 ![PPT自己的13](https://github.com/user-attachments/assets/386a1816-7b33-40bf-af33-203e78639e24)
 
