@@ -1,8 +1,8 @@
-# MTPRPI
+# MTP-RBP
 
-MTPRPI aims to determine whether an RNA can have a binding site with a certain protein. Similar to BERT, it learns the Integrated sequence-structure-function characteristics of RNA simultaneously by pre-training.
+MTP-RBP aims to determine whether an RNA can have a binding site with a certain protein. Similar to BERT, it learns the Integrated sequence-structure-function characteristics of RNA simultaneously by pre-training.
 
-First, MTPRPI  incorporates an additional binding function prediction task on top of the MLM task, allowing it to capture the binding properties of RNA sequences while learning their deep contextual representations through pre-training on the in-task dataset.  Second, we also design a secondary structure construction task to guide the model in self-learning structural information, rather than inputting it as a separate branch. By simultaneously engaging in these pre-training tasks, the Encoder can integrate RNA sequence and structural features more effectively. Furthermore, through extended sequence modeling, MTPRPI is able to better capture semantic information and sequence patterns.
+First, MTP-RBP  incorporates an additional binding function prediction task on top of the MLM task, allowing it to capture the binding properties of RNA sequences while learning their deep contextual representations through pre-training on the in-task dataset.  Second, we also design a secondary structure construction task to guide the model in self-learning structural information, rather than inputting it as a separate branch. By simultaneously engaging in these pre-training tasks, the Encoder can integrate RNA sequence and structural features more effectively. Furthermore, through extended sequence modeling, MTP-RBP is able to better capture semantic information and sequence patterns.
 
 ![PPT自己的12](https://github.com/user-attachments/assets/c1dec6ea-418f-4e39-934e-f4ad4e6312be)
 
@@ -15,7 +15,7 @@ python 3.8.8 <br>NumPy v1.20.1 <br>tensorflow v2.7.0 <br>keras v2.7.0 <br>sklear
 # Content <br>
 
 ./datasets: The training and testing dataset with sequence and label indicating it is binding sites or not<br>
-./model: The MTPRPI model code, which consists of a total of 6 parts :
+./model: The MTP-RBP model code, which consists of a total of 6 parts :
 
 - Part1：Pre-training mask data processing
 - Part2：Model Building Functions
