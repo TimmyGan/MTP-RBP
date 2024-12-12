@@ -32,7 +32,9 @@ For RNA secondary structure prediction, we use RNAfold to implement the predicti
 
 You can use RNAfold to make predictions about RNA secondary structure in the following ways
 
+` “ Bash 
 conda install -c bioconda viennarna <br> RNAfold --noPS < input.fa > output.fa
+` “
 
 You can choose the same tool or other RNA secondary structure prediction tools.<br><br>
 Contact: Lin Gan (ganlin228@stu.scu.edu.cn)
