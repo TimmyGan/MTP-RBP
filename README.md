@@ -34,7 +34,7 @@ You can use RNAfold to make predictions about RNA secondary structure in the fol
 
 conda install -c bioconda viennarna
 
-RNAfold --noPS < output.fa > output.fa
+RNAfold --noPS < input.fa > output.fa
 
 You can choose the same tool or other RNA secondary structure prediction tools.<br><br>
 Contact: Lin Gan (ganlin228@stu.scu.edu.cn)
