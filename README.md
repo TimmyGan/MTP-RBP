@@ -10,7 +10,7 @@ MTP-RBP aims to determine whether an RNA can have a binding site with a certain 
 
 # Dependency <br>
 
-python 3.8.8 <br>NumPy v1.20.1 <br>tensorflow v2.7.0 <br>keras v2.7.0 <br>sklearn v0.24.1 <br>
+python 3.8.8 <br>NumPy v1.20.1 <br>tensorflow v2.7.0 <br>keras v2.7.0 <br>sklearn v0.24.1 <br> 
 
 # Content <br>
 
@@ -28,7 +28,13 @@ python 3.8.8 <br>NumPy v1.20.1 <br>tensorflow v2.7.0 <br>keras v2.7.0 <br>sklear
 
 # NOTE
 
-For RNA secondary structure prediction, we use FocusFold to implement the prediction of RNA secondary structure. The predicted secondary structure is represented in a dot-bracket format, where each symbol corresponds to a base site in the sequence. Following the principle of base complementary pairing yields a secondary structure pairing tree diagram. 
+For RNA secondary structure prediction, we use RNAfold to implement the prediction of RNA secondary structure. The predicted secondary structure is represented in a dot-bracket format, where each symbol corresponds to a base site in the sequence. Following the principle of base complementary pairing yields a secondary structure pairing tree diagram. 
+
+You can use RNAfold to make predictions about RNA secondary structure in the following ways
+
+conda install -c bioconda viennarna
+
+RNAfold --noPS < output.fa > output.fa
 
 You can choose the same tool or other RNA secondary structure prediction tools.<br><br>
 Contact: Lin Gan (ganlin228@stu.scu.edu.cn)
