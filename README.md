@@ -3,7 +3,8 @@
 MTP-RBP aims to determine whether an RNA can have a binding site with a certain protein. Similar to BERT, it learns the Integrated sequence-structure-function characteristics of RNA simultaneously by pre-training.
 
 
-![PPT自己的13](https://github.com/user-attachments/assets/386a1816-7b33-40bf-af33-203e78639e24)
+![PPT自己的-new-1](https://github.com/user-attachments/assets/151239d7-6c43-4a5c-88a4-ac80790651a6)
+
 
 
 
